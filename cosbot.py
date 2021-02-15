@@ -37,7 +37,6 @@ def reply():
             api.update_status("@" + tweet.user.screen_name +
                             " Nice! :)", tweet.id)
             api.create_favorite(tweet.id)
-            api.retweet(tweet.id)
             
             store_last_seen(FILE_NAME, tweet.id)
 
