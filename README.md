@@ -5,12 +5,12 @@
 
 https://twitter.com/cosplaybotchan
 
-# bot.py
+## bot.py
 This auto-replies to a tweet that mentions me.
 
 It keeps track of the tweets it's already replied to in a TXT file so that it doesn't do dupicates.
 
-# cosbot.py
+## cosbot.py
 This auto-replies to a twee that mentions me.
 
 It also likes and retweets the last 10 tweets with the `#cosplay` tag.
